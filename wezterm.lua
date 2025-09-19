@@ -9,7 +9,7 @@ config.window_background_image = "/home/waikoo/.images/leonardo_awesome2.jpg"
 config.window_background_opacity = 0.9
 config.color_scheme = 'Tokyo Night'
 config.font = wezterm.font_with_fallback({ 'Hasklug Nerd Font', "Noto Color Emoji" })
-config.font_size = 13.5
+config.font_size = 11.5
 config.line_height = 1.2
 config.window_background_image = nil
 config.window_background_gradient = nil
@@ -22,7 +22,7 @@ config.window_padding = {
   top = 0,
   bottom = 0
 }
-
+config.default_cursor_style = "SteadyBlock"
 config.window_decorations = "RESIZE"
 config.max_fps = 120
 
